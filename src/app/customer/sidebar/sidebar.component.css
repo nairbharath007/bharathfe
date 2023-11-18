@@ -1,0 +1,72 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    /* padding: 48px 0 0;  */
+    padding-top: 0px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background: #232527; /* Bootstrap's dark color */
+    color: #292323;
+    text-align: center;
+  }
+  
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px; /* Height of navbar */
+    height: calc(100vh - 8px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .nav-link {
+    border-radius: 10px;
+    margin: 10px; /* Adjust as needed for space between nav-links */
+    padding: 10px; /* Adjust padding for larger click area and spacing */
+    /* border-bottom: 1px dotted #475057;  */
+    /* Divider color */
+  }
+  
+
+  .sidebar .nav-link {
+    color: #ffffff; /* Ensures the text is light colored for contrast */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #6c6cc0; /* Dark blue color on hover */
+    color: rgb(245, 200, 148); /* Keeps the text color white on hover for better readability */
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #6c6cc0; 
+    color: #ffffff;
+  }
+
+  
+
+
+
+  .sidebar .nav-item.logout {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    border-top: 1px solid #475057; /* Divider color */
+  }
+
+
+  .sidebar-logo {
+    text-align: center; /* Center align the logo */
+    padding: 0px 0; /* Add padding above and below the logo */
+    margin-bottom: 5px; /* Space between logo and first nav item */
+  }
+  
+  .sidebar-logo img {
+    max-width: 60%; /* Set a maximum width for the logo */
+    height: 60%; /* Maintain aspect ratio */
+    max-height: 40px; /* Prevent the logo from being too tall */
+  }

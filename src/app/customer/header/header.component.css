@@ -1,0 +1,24 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  }
+  
+
+  .navbar-custom-text {
+    font-size: 1.5em; /* Adjust this value as needed */
+  }
+  
+  /* Adjust this if you want to style the search bar differently */
+.form-inline .form-control {
+  width: 300px; /* Adjust width of the search bar */
+}
+
+/* Profile image styling */
+.navbar img.rounded-circle {
+  margin-left: 5px;
+  margin-right: 5px;
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+}
+
+.form-control:hover {
+  background-color: #ffe4b6 !important;
+}

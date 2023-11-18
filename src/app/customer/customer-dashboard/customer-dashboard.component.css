@@ -1,0 +1,13 @@
+.card {
+    /* Add some CSS for hover effects or other styling */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .btn:hover{
+    background-color: orange;
+  }

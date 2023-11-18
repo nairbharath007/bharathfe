@@ -1,0 +1,55 @@
+<nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+    <div class="sidebar-sticky">
+
+      <!-- Bank Logo -->
+    <div class="sidebar-logo">
+      <a href="#">
+        <img src="../../../assets/bank-logo.png" alt="Bank Logo" class="img-fluid">
+      </a>
+    </div>
+
+      <ul class="nav flex-column">
+        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <a class="nav-link" routerLink="/customer-dashboard">
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Create Account
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Passbook
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Account Statement
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Transactions
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Documents
+          </a>
+        </li>
+        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <a class="nav-link" routerLink="/fd-calculator">
+            FD Calculator
+          </a>
+        </li>
+        <li class="nav-item logout">
+          <a class="nav-link" href="#">
+            Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
